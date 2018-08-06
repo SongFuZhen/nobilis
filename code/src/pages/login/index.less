@@ -1,0 +1,74 @@
+@import "~themes/vars";
+
+.bg {
+  background: url('../../../public/background.jpg');
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: no-repeat;
+}
+
+.form {
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -160px 0 0 -160px;
+  width: 320px;
+  height: 320px;
+  padding: 36px;
+  box-shadow: 0 0 100px rgba(0,0,0,.08);
+
+  button {
+    width: 100%;
+  }
+
+  p {
+    color: rgb(204, 204, 204);
+    text-align: center;
+    margin-top: 16px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  // .loginIcon {
+  //   .ant-input-group-addon {
+  //     background: @primary-color!important;
+  //     color: white!important;
+  //     border-color: @primary-color!important;
+  //     font-size: 20px!important;
+  //   }
+  // }
+}
+
+.logo {
+  margin-top: -10px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 60px;
+    margin-right: 8px;
+  }
+
+  span {
+    vertical-align: text-bottom;
+    font-size: 2em;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: 700;
+    color: @primary-color;
+  }
+}
+
+.ant-spin-container,
+.ant-spin-nested-loading {
+  height: 100%;
+}
